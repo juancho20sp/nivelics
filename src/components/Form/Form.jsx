@@ -15,7 +15,7 @@ const Form = () => {
 
   const onSubmit = (data) => {
     console.log("Submit clicked");
-    console.log(data);
+    // console.log(data);
 
     // Agregamos el nombre al contexto global
     if (!state.name) {
@@ -100,7 +100,7 @@ const Form = () => {
             )}
           </span>
 
-          <input type="submit" />
+          <button type="submit">Enviar</button>
         </form>
 
         {state && <Table data={state}></Table>}

@@ -6,9 +6,6 @@ import AppContext from "../../context/AppContext";
 const Table = () => {
   const { state } = useContext(AppContext);
 
-  console.log(`name: ${state.name}`);
-  console.log(`age: ${state.age}`);
-  console.log(`email: ${state.email}`);
   return (
     <table>
       <thead>
