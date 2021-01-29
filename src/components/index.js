@@ -9,3 +9,4 @@ export { default as Article } from "./Article/Article";
 export { default as Main } from "./Main/Main";
 export { default as Testimony } from "./Testimony/Testimony";
 export { default as Categories } from "./Categories/Categories";
+export { default as Table } from "./Table/Table";
