@@ -27,9 +27,7 @@ const Categories = () => {
           {data.result &&
             data.result.categories.map((cat) => (
               <>
-                <p>
-                  {cat.name} {console.log(cat)}
-                </p>
+                <p>{cat.name} </p>
 
                 <div className="Category__services">
                   {cat.services.map((article) => (

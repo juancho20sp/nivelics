@@ -15,7 +15,7 @@ const Article = (props) => {
       className="Article__container"
       onClick={() => goToLink(data.url_article)}
     >
-      {console.log(props)}
+      {/* {console.log(props)} */}
       <h4>{data.name}</h4>
       <img src={data.image} alt={data.name} />
       <p>{data.description || data.text}</p>

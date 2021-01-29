@@ -24,7 +24,7 @@ const Testimony = () => {
       {!loading && !error && data && (
         <div className="Testimony__container">
           <h3>Testimonios</h3>
-          {data.result && console.log(data.result.testimony)}
+          {/* {data.result && console.log(data.result.testimony)} */}
           {data.result && <Article data={data.result.testimony[0]}></Article>}
         </div>
       )}
