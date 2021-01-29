@@ -1,0 +1,13 @@
+.Header__container {
+    background-color: var(--dark-color);
+    color: var(--light-color);
+
+    text-align: center;
+
+    grid-area: header;
+
+    display: grid;
+    grid-template: 1fr 1fr / 1fr;
+    justify-content: center;
+    align-items: center;
+}

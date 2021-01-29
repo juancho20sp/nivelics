@@ -1,0 +1,15 @@
+.Main__container {
+    padding: 0 10px;
+}
+
+.Main__container h2 {
+    text-align: center;
+}
+
+.Main__articles {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+}

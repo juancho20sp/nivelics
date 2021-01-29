@@ -1,0 +1,17 @@
+.Article__container {
+    border: 2px solid var(--dark-color);
+    border-radius: 15px;
+
+    text-align: center;
+
+    width: 45%;
+    margin: 15px;
+}
+
+.Article__container:hover {
+    cursor: pointer;
+}
+
+.Article__container img {
+    width: 60%;
+}

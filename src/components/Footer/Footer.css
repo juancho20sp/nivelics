@@ -1,0 +1,12 @@
+.Footer__container {
+    background-color: var(--light-color);
+
+    font-size: 1.4rem;
+
+    grid-area: footer;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

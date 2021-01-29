@@ -1,0 +1,20 @@
+nav ul {
+    list-style: none;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    font-size: 1.2rem;
+
+    width: 90%;
+}
+
+
+
+nav ul li:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+}
