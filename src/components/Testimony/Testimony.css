@@ -1,0 +1,11 @@
+.Testimony__loader {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Testimony__container h3 {
+    text-align: center;
+    margin-top: 10px;
+}

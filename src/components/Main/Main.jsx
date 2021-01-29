@@ -5,6 +5,7 @@ import { Article } from "../";
 
 const Main = (props) => {
   let data = props.data;
+
   return (
     <>
       {props.data && (

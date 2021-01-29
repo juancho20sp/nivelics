@@ -1,0 +1,11 @@
+.Categories__loader {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Category__services {
+    display: flex;
+    flex-direction: row-reverse;
+}

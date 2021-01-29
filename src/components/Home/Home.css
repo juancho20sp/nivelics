@@ -1,9 +1,5 @@
 .Home__loader {
-    /* background-color: rebeccapurple; */
-
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-.Home__table {}
